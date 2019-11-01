@@ -268,7 +268,7 @@
             "Ubuntu-Server-16.04-LTS-HVM": {
                 "Code": "US1604HVM"
             },
-            "SYF-RHEL-7-HVM": {
+            "RHEL-7-HVM": {
                 "Code": "RHEL7HVM"
             },
         },
@@ -282,7 +282,7 @@
             "Ubuntu-Server-16.04-LTS-HVM": {
                 "BootDisk": "/dev/sda1"
             },
-            "SYF-RHEL-7-HVM": {
+            "RHEL-7-HVM": {
                 "BootDisk": "/dev/sda1"
             }
         }
