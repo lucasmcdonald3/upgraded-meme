@@ -279,10 +279,10 @@
                 "CentOS-7-HVM",
                 "Ubuntu-Server-16.04-LTS-HVM",
                 "Amazon-Linux-HVM",
-                "RHEL-7"
+                "RHEL-7-HVM"
             ],
             "ConstraintDescription": "Supported versions of Linux AMIs for Confluent deployments",
-            "Default": "RHEL-7",
+            "Default": "RHEL-7-HVM",
             "Description": "Operating system AMI for cluster instances; you MUST authorize access to the proper AMI at https://aws.amazon.com/marketplace",
             "Type": "String"
         },
