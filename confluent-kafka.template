@@ -547,7 +547,7 @@
             "Type": "AWS::CloudFormation::Stack",
             "Properties": {
                 "TemplateURL": {
-                    "Fn::Sub": "https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}templates/nodegroup.template"
+                    "Fn::Sub": "https://s3-external-1.amazonaws.com/cf-templates-1ngcqoax5ia5h-us-east-1/2019305Mhr-template1urs7a9ssgqrF"
                 },
                 "Parameters": {
                     "AssignPublicIP": {
@@ -627,7 +627,7 @@
             "Condition": "IndependentZookeepers",
             "Properties": {
                 "TemplateURL": {
-                    "Fn::Sub": "https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}templates/nodegroup.template"
+                    "Fn::Sub": "https://s3-external-1.amazonaws.com/cf-templates-1ngcqoax5ia5h-us-east-1/2019305Mhr-template1urs7a9ssgqr"
                 },
                 "Parameters": {
                     "AssignPublicIP": {
@@ -701,7 +701,7 @@
             "Condition": "IndependentWorkers",
             "Properties": {
                 "TemplateURL": {
-                    "Fn::Sub": "https://${QSS3BucketName}.s3.amazonaws.com/${QSS3KeyPrefix}templates/nodegroup.template"
+                    "Fn::Sub": "https://s3-external-1.amazonaws.com/cf-templates-1ngcqoax5ia5h-us-east-1/2019305Mhr-template1urs7a9ssgqr"
                 },
                 "Parameters": {
                     "AssignPublicIP": {
